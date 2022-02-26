@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'gagalin';
+    src: url('Gagalin-Regular.otf');
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('Quicksand_Bold.otf');
+}
+
+#bloc_page
+{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+body
+{
+    min-height: 100%;
+    background-color: white;
+    color: #635b58;
+    font-family: 'quicksand';
+}
+
+header
+{
+    background-color: white;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-family: 'gagalin';
+    margin: 0px;
+    padding-left: 20px;
+    border-left: 15px #76c7f6 solid;
+    font-size: 300%;
+}
+
+header h1
+{
+    flex: 1;
+    white-space: nowrap;
+}
+
+#menu
+{
+    margin-left: 100px;
+    flex: 2;
+    padding: 0px;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+#menu ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px #76c7f6 solid;
+}
+
+#menu li
+{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+#menu li #end
+{
+    margin: 0px;
+}
+
+#menu a
+{
+    color: #635b58;
+    font-size: 180%;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#menu a:hover
+{
+    color: white;
+    background-color: #635b58;
+}
+
+section 
+{
+    text-align: justify;
+}
+
+h2
+{
+    font-family: 'gagalin';
+    font-size: 250%;
+    background-color: #76c7f6;
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    white-space: nowrap;
+    min-width: 800px;
+}
+
+h3
+{
+    font-family: 'gagalin';
+    font-size: 180%;
+    border-bottom: 3px #76c7f6 solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+span a
+{
+    text-decoration: none;
+    font-size: 150%;
+    color: #635b58;
+    margin: 0px;
+    padding: 3px;
+}
+
+span a:hover
+{
+    background-color: #76c7f6;
+    border-radius: 5px;
+    color: white;
+}
+
+article
+{
+    display: block;
+    text-align: center;
+}
+
+embed
+{
+    margin-bottom: 30px;
+}
+
+span 
+{
+    font-family: 'quicksand';
+    font-size: 60%;
+    font-style: italic;
+}
+
+footer
+{
+    background-color: white;
+    margin: 0px;
+    border-top: 3px #76c7f6 solid;
+    text-align: center;
+    font-size: 180%;
+}
