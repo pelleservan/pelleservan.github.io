@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="idprostyle.css">
+	<title>Idée de projet</title>
+</head>
+
+<body>
+	<div id="bloc_page">
+		<header>
+			<div>
+				<h1>Pellé Servan</h1>
+			</div>
+			<div id="menu">
+				<nav>
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="port.html">Portfolio</a></li>
+						<li><a href="cv.html">CV</a></li>
+						<li><a href="travaux.html">À propos</a></li>
+						<li id="end"><a href="contact.html">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section>
+			<h2>Envoyez-moi vos idées de projets</h2>
+			<form method="post" action="traitement.php">
+				<fieldset>
+					<legend>Vos informations</legend>
+   					 <p>
+       					<label for="nom">Nom</label> : <input type="text" name="nom" id="nom" required/>
+       					<label for="prenom">Prenom</label> : <input type="text" name="prenom" required/>
+       					<label for="nom">Mail</label> : <input type="mail" name="mail" id="mail" placeholder="Ex : nom.prenom@gmail.com" size="50" required/>
+   				 	</p>
+   				</fieldset>
+   				<fieldset id="despro">
+   					<legend>Le projet</legend>
+   					<div id="des">
+   						<p>
+   							<h4>Faite une description du projet à réaliser<h4/>
+      						<textarea name="ameliorer" id="ameliorer" required></textarea>
+      					</p>
+      				</div>
+   					<div id="det">
+   						<p>
+   							<h4>Indiquez le(s) language(s) à utilisé(s)</h4>
+   							<label for="language">C</label> : <input type="checkbox" name="language" id="c" />
+   							<label for="language">C++</label> : <input type="checkbox" name="language" id="c++" />
+   							<label for="language">Python</label> : <input type="checkbox" name="language" id="Python" />
+   							<label for="language">SQL</label> : <input type="checkbox" name="language" id="sql" />
+   							<label for="language">Java</label> : <input type="checkbox" name="language" id="java" />
+   						</p>
+   						<p>
+   							<h4>Indiquez le niveau de difficulter</h4>
+   							<label for="difficulter">Facile</label> : <input type="radio" name="difficulter" id="facile">
+   							<label for="difficulter">Moyen</label> : <input type="radio" name="difficulter" id="moyen">
+   							<label for="difficulter">Difficile</label> : <input type="radio" name="difficulter" id="difficile">
+   						</p>
+   					</div>
+   				</fieldset>
+   				<input id="bt" type="submit" value="Envoyer" />
+			</form>
+		</section>
+		<footer>
+			<h6>EVOYEZ-MOI VOS IDÉES DE PROJETS !</h6>
+		</footer>
+	</div>
+</body>
+</html>  
