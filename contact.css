@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'gagalin';
+    src: url('Gagalin-Regular.otf');
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('Quicksand_Bold.otf');
+}
+
+#bloc_page
+{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+body
+{
+    min-height: 100%;
+    background-color: white;
+    color: #635b58;
+    font-family: 'quicksand';
+}
+
+header
+{
+    background-color: white;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-family: 'gagalin';
+    margin: 0px;
+    padding-left: 20px;
+    border-left: 15px #76c7f6 solid;
+    font-size: 300%;
+}
+
+header h1
+{
+    flex: 1;
+    white-space: nowrap;
+}
+
+#menu
+{
+    margin-left: 100px;
+    flex: 2;
+    padding: 0px;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+#menu ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px #76c7f6 solid;
+}
+
+#menu li
+{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+#menu li #end
+{
+    margin: 0px;
+}
+
+#menu a
+{
+    color: #635b58;
+    font-size: 180%;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#menu a:hover
+{
+    color: white;
+    background-color: #635b58;
+}
+
+section
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#phone
+{
+    width: 60%;
+    height: auto;
+    box-shadow: -10px 10px #76c7f6;
+}
+
+aside
+{
+    margin-right: 50px;
+}
+
+aside ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside img
+{
+    border-radius: 0px;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    padding: 2px;
+    border: 3px white solid;
+    border-radius: 5px;
+}
+
+aside img:hover
+{
+    border: 3px #76c7f6 solid;
+    border-radius: 5px;
+}
+
+footer
+{
+    background-color: white;
+    margin: 0px;
+    border-top: 3px #76c7f6 solid;
+    text-align: center;
+    font-size: 180%;
+}
+
