@@ -1,3 +1,3 @@
 # pelleservan.github.io
 portfolio
-cc
+visite potfolio at : https://pelleservan.github.io/index.html
